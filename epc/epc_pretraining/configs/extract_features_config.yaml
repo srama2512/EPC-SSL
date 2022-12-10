@@ -1,0 +1,6 @@
+NUM_SAMPLES_PER_VIDEO: 1
+DATA_ROOT: "data/walkthroughs/strong_exploration"
+VISUAL_ENCODER:
+  RESNET:
+    ENCODER:
+      pretrained_path: "pretrained_models/moco_encoder.pth.tar"

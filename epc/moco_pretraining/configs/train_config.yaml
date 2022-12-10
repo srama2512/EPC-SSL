@@ -1,0 +1,10 @@
+MODEL:
+  ENCODER:
+    input_shape: (256, 256, 4)
+    baseplanes: 32
+    backbone: "resnet18"
+    hidden_size: 128
+    normalize_visual_inputs: True
+
+  PROJECTOR:
+    dim: 128
